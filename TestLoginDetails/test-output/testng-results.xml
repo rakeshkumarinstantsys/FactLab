@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T04:35:42 IST" name="FactorlabSuite" finished-at="2023-01-04T04:36:26 IST" duration-ms="44403">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T04:35:42 IST" name="FactorlabLogin" finished-at="2023-01-04T04:36:26 IST" duration-ms="44403">
+      <class name="com.Factorlab.Tests.FactorlabLogin">
+        <test-method signature="TestLogin()[pri:0, instance:com.Factorlab.Tests.FactorlabLogin@3f6f6701]" started-at="2023-01-04T04:35:42 IST" name="TestLogin" finished-at="2023-01-04T04:36:26 IST" duration-ms="44380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="Testthird()[pri:0, instance:com.Factorlab.Tests.FactorlabLogin@3f6f6701]" started-at="2023-01-04T04:36:26 IST" name="Testthird" finished-at="2023-01-04T04:36:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testthird -->
+        <test-method signature="Testsecond()[pri:0, instance:com.Factorlab.Tests.FactorlabLogin@3f6f6701]" started-at="2023-01-04T04:36:26 IST" name="Testsecond" finished-at="2023-01-04T04:36:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testsecond -->
+      </class> <!-- com.Factorlab.Tests.FactorlabLogin -->
+    </test> <!-- FactorlabLogin -->
+  </suite> <!-- FactorlabSuite -->
+</testng-results>
