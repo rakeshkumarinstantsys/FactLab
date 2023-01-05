@@ -105,7 +105,7 @@ public class FactorlabLogin {
 	
 	@Test
 	public void Testsecond() {
-		System.out.("This is just a sample text message for 2nd test");
+		System.out.println("This is just a sample text message for 2nd test");
 				
 	}
 	
