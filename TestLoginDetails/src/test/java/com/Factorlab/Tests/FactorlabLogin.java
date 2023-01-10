@@ -89,7 +89,7 @@ public class FactorlabLogin {
 				}
 				System.out.println("User Name : " + UserName + " --- Login Failed --- " + result);
 				Thread.sleep(1000);
-				driver.findElement(By.xpath("/html/body/div/div[2]/div/div[2]/form/div[3]/button[2]")).click();
+				driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[2]/div/div[2]/form/div[3]/button[2]")).click();
 				Thread.sleep(1000);
 				driver.findElement(By.id("login-username")).clear();
 				Thread.sleep(1000);
