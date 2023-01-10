@@ -37,11 +37,6 @@
 			<version>5.2.3</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.adiralashiva8</groupId>
-			<artifactId>testng-metrics</artifactId>
-			<version>1.6</version>
-		</dependency>
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.13.2</version>
