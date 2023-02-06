@@ -13,14 +13,7 @@
 			  <include name="InValidUserValidationMsgHitEnter"/>
 			  <include name="BlankUserValidationMsgClickContinue"/>
 			  <include name="BlankUserValidationMsgHitEnter"/>
-			  <include name="ValidateClearUserName"/>
-			  <include name="ClickForgotUsernameText"/>
-			  <include name="ValidEmailSubmit"/>
-			  <include name="ValidEmailEnter"/>
-			  <include name="ValidationTextSubmit"/>
-			  <include name="ValidationTextEnter"/>
-			  <include name="ValidationTextBlankUsernameSubmit"/>
-			  <include name="ValidationTextBlankUsernameEnter"/>
+			  			  
 		  </methods>	  
 	  </class>
 	        
