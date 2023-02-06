@@ -59,7 +59,7 @@ public class UsernameTestCases {
 		driver.get("https://staging1.factorlablambdaapis.com/login");
 		driver.manage().window().maximize();
 			
-		Row row = sheet.getRow(10);
+		Row row = sheet.getRow(1);
 		Cell cell = (Cell) row.getCell(0);
 		driver.findElement(By.id("login-username")).sendKeys(sheet.getRow(1).getCell(0).getStringCellValue());
 		Thread.sleep(1000);
@@ -227,7 +227,7 @@ public class UsernameTestCases {
 					
 		driver.findElement(By.id("login-username")).sendKeys("        ");
 		Thread.sleep(1000);
-		driver.findElement(By.id("login-usernamee")).sendKeys(Keys.ENTER);
+		driver.findElement(By.id("login-username")).sendKeys(Keys.ENTER);
 		Thread.sleep(1000);
 		WebElement validationtext = driver.findElement(By.xpath("//*[text()='Please enter a valid user name.']"));
 		if(validationtext.isDisplayed())
