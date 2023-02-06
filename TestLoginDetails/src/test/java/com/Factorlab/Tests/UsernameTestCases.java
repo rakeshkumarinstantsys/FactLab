@@ -227,7 +227,7 @@ public class UsernameTestCases {
 					
 		driver.findElement(By.id("login-username")).sendKeys("        ");
 		Thread.sleep(1000);
-		driver.findElement(By.id("login-username")).sendKeys(Keys.ENTER);
+		driver.findElement(By.id("login-usernamee")).sendKeys(Keys.ENTER);
 		Thread.sleep(1000);
 		WebElement validationtext = driver.findElement(By.xpath("//*[text()='Please enter a valid user name.']"));
 		if(validationtext.isDisplayed())
