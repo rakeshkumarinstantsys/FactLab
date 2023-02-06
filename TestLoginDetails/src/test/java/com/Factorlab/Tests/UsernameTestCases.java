@@ -59,7 +59,7 @@ public class UsernameTestCases {
 		driver.get("https://staging1.factorlablambdaapis.com/login");
 		driver.manage().window().maximize();
 			
-		Row row = sheet.getRow(1);
+		Row row = sheet.getRow(10);
 		Cell cell = (Cell) row.getCell(0);
 		driver.findElement(By.id("login-username")).sendKeys(sheet.getRow(1).getCell(0).getStringCellValue());
 		Thread.sleep(1000);
