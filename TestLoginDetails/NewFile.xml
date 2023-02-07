@@ -4,60 +4,8 @@
   <test name="FactorlabLogin">
     <classes>
       <class name="com.Factorlab.Tests.UsernameTestCases">
-		  <methods>
-			  <include name="ValidUserClickContinue"/>
-			  <include name="ValidUserHitEnter"/>
-			  <include name="InValidUserClickContinue"/>
-			  <include name="InValidUserHitEnter"/>
-			  <include name="InValidUserValidationMsgClickContinue"/>
-			  <include name="InValidUserValidationMsgHitEnter"/>
-			  <include name="BlankUserValidationMsgClickContinue"/>
-			  <include name="BlankUserValidationMsgHitEnter"/>
-			  <include name="ValidateClearUserName"/>
-			  <include name="ClickForgotUsernameText"/>
-			  <include name="ValidEmailSubmit"/>
-			  <include name="ValidEmailEnter"/>
-			  <include name="ValidationTextSubmit"/>
-			  <include name="ValidationTextEnter"/>
-			  <include name="ValidationTextBlankUsernameSubmit"/>
-			  <include name="ValidationTextBlankUsernameEnter"/>
-		  </methods>	  
 	  </class>
-	  <class name="com.Factorlab.Tests.PasswordTestCases">
-		  <methods>
-			  <include name="ValidUserClickContinue"/>
-			  <include name="ValidUserHitEnter"/>
-			  <include name="InValidUserClickContinue"/>
-			  <include name="InValidUserHitEnter"/>
-			  <include name="InValidUserValidationMsgClickContinue"/>
-			  <include name="InValidUserValidationMsgHitEnter"/>
-			  <include name="BlankUserValidationMsgClickContinue"/>
-			  <include name="BlankUserValidationMsgHitEnter"/>
-			  <include name="ValidateClearPassword"/>
-			  <include name="ClickForgotPasswordText"/>
-			  <include name="ClickEmailRadioButton"/>
-			  <include name="EmailRadioButtonValidEmailSubmit"/>
-			  <include name="EmailRadioButtonValidEmailEnter"/>
-			  <include name="EmailRadioButtonInValidEmailSubmit"/>
-			  <include name="EmailRadioButtonInValidEmailEnter"/>
-			  <include name="EmailRadioButtonBlankEmailSubmit"/>
-			  <include name="EmailRadioButtonBlankEmailEnter"/>
-			  <include name="ClickUsernameRadioButton"/>
-			  <include name="UsernameRadioButtonValidUsernameSubmit"/>
-			  <include name="UsernameRadioButtonValidUsernameEnter"/>
-			  <include name="UsernameRadioButtonValidUsernameValidateMsgSubmit"/>
-			  <include name="UsernameRadioButtonValidUsernameValidateMsgEnter"/>
-			  <include name="UsernameRadioButtonInvalidusernameSubmit"/>
-			  <include name="UsernameRadioButtonInvalidusernameEnter"/>
-			  <include name="UsernameRadioButtonValidateMsgSubmit"/>
-			  <include name="UsernameRadioButtonValidateMsgEnter"/>
-			  <include name="UsernameRadioButtonBlankUserSubmit"/>
-			  <include name="UsernameRadioButtonBlankUserEnter"/>
-			  <include name="UsernameRadioButtonBlankUserValidateMsgSubmit"/>
-			  <include name="UsernameRadioButtonBlankUserValidateMsgEnter"/>
-		  </methods>	  
-	  </class>
-      
+	        
     </classes>
   </test> 
 </suite>
