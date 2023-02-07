@@ -16,4 +16,12 @@
     </classes>
    
   </test>
+  <test name="HomePageTestCases">
+    <classes>
+      <class name="com.Factorlab.Tests.HomePage">
+	  </class>
+	        
+    </classes>
+   
+  </test>
 </suite>
