@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="FactorlabSuite">
-  <test name="FactorlabLogin">
+  <test name="UsernameTestCases">
     <classes>
       <class name="com.Factorlab.Tests.UsernameTestCases">
 	  </class>
 	        
     </classes>
-  </test> 
+  </test>
+  <test name="PasswordTestCases">
+    <classes>
+      <class name="com.Factorlab.Tests.PasswordTestCases">
+	  </class>
+	        
+    </classes>
+   
+  </test>
 </suite>
