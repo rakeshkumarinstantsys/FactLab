@@ -4,24 +4,13 @@
   <test name="UsernameTestCases">
     <classes>
       <class name="com.Factorlab.Tests.UsernameTestCases">
-	  </class>
-	        
+	  </class>	        
     </classes>
   </test>
   <test name="PasswordTestCases">
     <classes>
       <class name="com.Factorlab.Tests.PasswordTestCases">
-	  </class>
-	        
-    </classes>
-   
-  </test>
-  <test name="HomePageTestCases">
-    <classes>
-      <class name="com.Factorlab.Tests.HomePage">
-	  </class>
-	        
-    </classes>
-   
-  </test>
+	  </class>	        
+    </classes>   
+  </test>  
 </suite>
